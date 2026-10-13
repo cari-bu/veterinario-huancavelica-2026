@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Veterinaria profesional dedicada al cuidado y bienestar de tus mascotas.">
+
+    <title>VetCare | Veterinaria</title>
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="./styles/output.css">
+
+</head>
+
+
+<body class="bg-white text-slate-800">
+
+
+    <!-- ================================================= -->
+    <!-- NAVBAR                                             -->
+    <!-- ================================================= -->
+
+    <header class="fixed top-0 z-50 w-full border-b border-slate-100 bg-white/95 backdrop-blur">
+
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+
+
+            <!-- LOGO -->
+
+            <a href="#inicio" class="flex items-center gap-3">
+
+                <div
+                    class="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-500 text-2xl shadow-lg">
+
+                    🐾
+
+                </div>
+
+                <div>
+
+                    <h1 class="text-xl font-extrabold text-emerald-700">
+                        VetCare
+                    </h1>
+
+                    <p class="text-xs text-slate-500">
+                        Clínica Veterinaria
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- MENU -->
+
+            <nav class="hidden items-center gap-8 lg:flex">
+
+                <a href="#inicio"
+                    class="font-medium text-slate-600 transition hover:text-emerald-600">
+                    Inicio
+                </a>
+
+                <a href="#servicios"
+                    class="font-medium text-slate-600 transition hover:text-emerald-600">
+                    Servicios
+                </a>
+
+                <a href="#nosotros"
+                    class="font-medium text-slate-600 transition hover:text-emerald-600">
+                    Nosotros
+                </a>
+
+                <a href="#beneficios"
+                    class="font-medium text-slate-600 transition hover:text-emerald-600">
+                    Beneficios
+                </a>
+
+                <a href="#contacto"
+                    class="font-medium text-slate-600 transition hover:text-emerald-600">
+                    Contacto
+                </a>
+
+            </nav>
+
+
+            <!-- BOTÓN -->
+
+            <a href="#cita"
+                class="rounded-full bg-emerald-600 px-6 py-3 font-bold text-white shadow-lg transition hover:bg-emerald-700">
+
+                Reservar cita
+
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================================================= -->
+    <!-- HERO                                               -->
+    <!-- ================================================= -->
+
+    <section id="inicio"
+        class="overflow-hidden bg-gradient-to-br from-emerald-50 via-white to-cyan-50 pt-32">
+
+
+        <div class="mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 lg:grid-cols-2">
+
+
+            <!-- TEXTO -->
+
+            <div>
+
+                <span
+                    class="inline-block rounded-full bg-emerald-100 px-4 py-2 text-sm font-bold text-emerald-700">
+
+                    🐾 Cuidado, amor y salud para tu mascota
+
+                </span>
+
+
+                <h2 class="mt-6 text-5xl font-extrabold leading-tight text-slate-900 md:text-6xl">
+
+                    La salud de tu mascota
+
+                    <span class="text-emerald-600">
+                        es nuestra prioridad
+                    </span>
+
+                </h2>
+
+
+                <p class="mt-6 max-w-xl text-lg leading-8 text-slate-600">
+
+                    Brindamos servicios veterinarios profesionales
+                    para cuidar la salud, bienestar y felicidad de
+                    tus mascotas.
+
+                </p>
+
+
+                <!-- BOTONES -->
+
+                <div class="mt-8 flex flex-wrap gap-4">
+
+                    <a href="#cita"
+                        class="rounded-full bg-emerald-600 px-7 py-4 font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-emerald-700">
+
+                        📅 Reservar una cita
+
+                    </a>
+
+
+                    <a href="#servicios"
+                        class="rounded-full border-2 border-emerald-600 px-7 py-4 font-bold text-emerald-700 transition hover:bg-emerald-50">
+
+                        Ver servicios →
+
+                    </a>
+
+                </div>
+
+
+                <!-- ESTADÍSTICAS -->
+
+                <div class="mt-10 flex flex-wrap gap-10">
+
+                    <div>
+
+                        <p class="text-3xl font-extrabold text-emerald-600">
+                            +10
+                        </p>
+
+                        <p class="text-sm text-slate-500">
+                            Años de experiencia
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <p class="text-3xl font-extrabold text-emerald-600">
+                            +5K
+                        </p>
+
+                        <p class="text-sm text-slate-500">
+                            Mascotas atendidas
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <p class="text-3xl font-extrabold text-emerald-600">
+                            24/7
+                        </p>
+
+                        <p class="text-sm text-slate-500">
+                            Atención
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IMAGEN -->
+
+            <div class="relative">
+
+                <div
+                    class="absolute -left-10 -top-10 h-40 w-40 rounded-full bg-emerald-200 blur-3xl">
+                </div>
+
+                <div
+                    class="absolute -bottom-10 -right-10 h-40 w-40 rounded-full bg-cyan-200 blur-3xl">
+                </div>
+
+
+                <div class="relative overflow-hidden rounded-[2rem] shadow-2xl">
+
+                    <img src="./img/veterinaria.jpg"
+                        alt="Atención veterinaria"
+                        class="h-[550px] w-full object-cover">
+
+                </div>
+
+
+                <!-- TARJETA FLOTANTE -->
+
+                <div
+                    class="absolute bottom-6 left-6 rounded-2xl bg-white p-5 shadow-xl">
+
+                    <div class="flex items-center gap-4">
+
+                        <div
+                            class="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-100 text-xl">
+
+                            ❤️
+
+                        </div>
+
+
+                        <div>
+
+                            <p class="font-bold text-slate-900">
+                                Atención profesional
+                            </p>
+
+                            <p class="text-sm text-slate-500">
+                                Tu mascota está en buenas manos
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================================= -->
+    <!-- SERVICIOS                                          -->
+    <!-- ================================================= -->
+
+    <section id="servicios" class="bg-white py-24">
+
+
+        <div class="mx-auto max-w-7xl px-6">
+
+
+            <!-- TÍTULO -->
+
+            <div class="mx-auto max-w-2xl text-center">
+
+                <span class="font-bold uppercase tracking-widest text-emerald-600">
+                    Nuestros servicios
+                </span>
+
+                <h2 class="mt-3 text-4xl font-extrabold text-slate-900">
+                    Todo para cuidar a tu mascota
+                </h2>
+
+                <p class="mt-4 text-lg text-slate-600">
+
+                    Ofrecemos servicios veterinarios pensados
+                    para cada etapa de la vida de tu mascota.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- TARJETAS -->
+
+            <div class="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+
+                <!-- CONSULTA -->
+
+                <article
+                    class="group rounded-3xl border border-slate-100 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl">
+
+                    <div
+                        class="flex h-16 w-16 items-center justify-center rounded-2xl bg-emerald-100 text-3xl">
+
+                        🩺
+
+                    </div>
+
+                    <h3 class="mt-6 text-xl font-bold">
+                        Consulta veterinaria
+                    </h3>
+
+                    <p class="mt-3 leading-7 text-slate-600">
+
+                        Evaluación completa para conocer el estado
+                        de salud de tu mascota.
+
+                    </p>
+
+                    <a href="#cita"
+                        class="mt-6 inline-block font-bold text-emerald-600">
+
+                        Reservar →
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- VACUNACIÓN -->
+
+                <article
+                    class="group rounded-3xl border border-slate-100 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl">
+
+                    <div
+                        class="flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-100 text-3xl">
+
+                        💉
+
+                    </div>
+
+                    <h3 class="mt-6 text-xl font-bold">
+                        Vacunación
+                    </h3>
+
+                    <p class="mt-3 leading-7 text-slate-600">
+
+                        Protegemos a tu mascota mediante un programa
+                        adecuado de vacunación.
+
+                    </p>
+
+                    <a href="#cita"
+                        class="mt-6 inline-block font-bold text-emerald-600">
+
+                        Reservar →
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- GROOMING -->
+
+                <article
+                    class="group rounded-3xl border border-slate-100 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl">
+
+                    <div
+                        class="flex h-16 w-16 items-center justify-center rounded-2xl bg-pink-100 text-3xl">
+
+                        ✂️
+
+                    </div>
+
+                    <h3 class="mt-6 text-xl font-bold">
+                        Baño y grooming
+                    </h3>
+
+                    <p class="mt-3 leading-7 text-slate-600">
+
+                        Higiene, baño, corte y cuidado de la apariencia
+                        de tu mascota.
+
+                    </p>
+
+                    <a href="#cita"
+                        class="mt-6 inline-block font-bold text-emerald-600">
+
+                        Reservar →
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- ODONTOLOGÍA -->
+
+                <article
+                    class="group rounded-3xl border border-slate-100 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl">
+
+                    <div
+                        class="flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-100 text-3xl">
+
+                        🦷
+
+                    </div>
+
+                    <h3 class="mt-6 text-xl font-bold">
+                        Odontología
+                    </h3>
+
+                    <p class="mt-3 leading-7 text-slate-600">
+
+                        Cuidado dental y prevención de enfermedades
+                        de la boca.
+
+                    </p>
+
+                    <a href="#cita"
+                        class="mt-6 inline-block font-bold text-emerald-600">
+
+                        Reservar →
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- LABORATORIO -->
+
+                <article
+                    class="group rounded-3xl border border-slate-100 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl">
+
+                    <div
+                        class="flex h-16 w-16 items-center justify-center rounded-2xl bg-yellow-100 text-3xl">
+
+                        🔬
+
+                    </div>
+
+                    <h3 class="mt-6 text-xl font-bold">
+                        Laboratorio
+                    </h3>
+
+                    <p class="mt-3 leading-7 text-slate-600">
+
+                        Análisis para ayudar a nuestros veterinarios
+                        a realizar un diagnóstico adecuado.
+
+                    </p>
+
+                    <a href="#cita"
+                        class="mt-6 inline-block font-bold text-emerald-600">
+
+                        Reservar →
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- EMERGENCIAS -->
+
+                <article
+                    class="group rounded-3xl border border-slate-100 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl">
+
+                    <div
+                        class="flex h-16 w-16 items-center justify-center rounded-2xl bg-red-100 text-3xl">
+
+                        🚑
+
+                    </div>
+
+                    <h3 class="mt-6 text-xl font-bold">
+                        Emergencias
+                    </h3>
+
+                    <p class="mt-3 leading-7 text-slate-600">
+
+                        Atención rápida para situaciones que
+                        requieren asistencia.
+
+                    </p>
+
+                    <a href="#contacto"
+                        class="mt-6 inline-block font-bold text-emerald-600">
+
+                        Contactar →
+
+                    </a>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================================= -->
+    <!-- NOSOTROS                                           -->
+    <!-- ================================================= -->
+
+    <section id="nosotros" class="bg-slate-50 py-24">
+
+
+        <div class="mx-auto grid max-w-7xl items-center gap-14 px-6 lg:grid-cols-2">
+
+
+            <!-- IMAGEN -->
+
+            <div class="overflow-hidden rounded-[2rem] shadow-xl">
+
+                <img src="./img/veterinario.jpg"
+                    alt="Veterinario atendiendo una mascota"
+                    class="h-[500px] w-full object-cover">
+
+            </div>
+
+
+
+            <!-- TEXTO -->
+
+            <div>
+
+                <span class="font-bold uppercase tracking-widest text-emerald-600">
+                    Nosotros
+                </span>
+
+                <h2 class="mt-3 text-4xl font-extrabold text-slate-900">
+
+                    Cuidamos a tu mascota como parte de nuestra familia
+
+                </h2>
+
+                <p class="mt-6 leading-8 text-slate-600">
+
+                    Somos una clínica veterinaria comprometida
+                    con brindar atención de calidad y un trato
+                    cercano a cada mascota.
+
+                </p>
+
+                <p class="mt-4 leading-8 text-slate-600">
+
+                    Nuestro equipo trabaja para ofrecer soluciones
+                    profesionales enfocadas en la prevención,
+                    diagnóstico y cuidado de la salud animal.
+
+                </p>
+
+
+
+                <div class="mt-8 space-y-4">
+
+                    <div class="flex items-center gap-3">
+
+                        <span class="text-xl text-emerald-600">
+                            ✓
+                        </span>
+
+                        <span>
+                            Profesionales capacitados
+                        </span>
+
+                    </div>
+
+
+                    <div class="flex items-center gap-3">
+
+                        <span class="text-xl text-emerald-600">
+                            ✓
+                        </span>
+
+                        <span>
+                            Atención personalizada
+                        </span>
+
+                    </div>
+
+
+                    <div class="flex items-center gap-3">
+
+                        <span class="text-xl text-emerald-600">
+                            ✓
+                        </span>
+
+                        <span>
+                            Equipamiento adecuado
+                        </span>
+
+                    </div>
+
+
+                    <div class="flex items-center gap-3">
+
+                        <span class="text-xl text-emerald-600">
+                            ✓
+                        </span>
+
+                        <span>
+                            Amor y respeto por los animales
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================================= -->
+    <!-- BENEFICIOS                                         -->
+    <!-- ================================================= -->
+
+    <section id="beneficios" class="bg-white py-24">
+
+
+        <div class="mx-auto max-w-7xl px-6">
+
+
+            <div class="mx-auto max-w-2xl text-center">
+
+                <span class="font-bold uppercase tracking-widest text-emerald-600">
+                    ¿Por qué elegirnos?
+                </span>
+
+                <h2 class="mt-3 text-4xl font-extrabold text-slate-900">
+                    Tu mascota merece lo mejor
+                </h2>
+
+            </div>
+
+
+
+            <div class="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+
+
+                <div class="rounded-3xl bg-emerald-50 p-8 text-center">
+
+                    <div class="text-4xl">
+                        👨‍⚕️
+                    </div>
+
+                    <h3 class="mt-5 font-bold">
+                        Profesionales
+                    </h3>
+
+                    <p class="mt-3 text-sm leading-6 text-slate-600">
+                        Personal preparado para cuidar de tu mascota.
+                    </p>
+
+                </div>
+
+
+                <div class="rounded-3xl bg-blue-50 p-8 text-center">
+
+                    <div class="text-4xl">
+                        ❤️
+                    </div>
+
+                    <h3 class="mt-5 font-bold">
+                        Atención humana
+                    </h3>
+
+                    <p class="mt-3 text-sm leading-6 text-slate-600">
+                        Tratamos a cada mascota con cariño y respeto.
+                    </p>
+
+                </div>
+
+
+                <div class="rounded-3xl bg-pink-50 p-8 text-center">
+
+                    <div class="text-4xl">
+                        🏥
+                    </div>
+
+                    <h3 class="mt-5 font-bold">
+                        Instalaciones
+                    </h3>
+
+                    <p class="mt-3 text-sm leading-6 text-slate-600">
+                        Espacios pensados para brindar comodidad.
+                    </p>
+
+                </div>
+
+
+                <div class="rounded-3xl bg-yellow-50 p-8 text-center">
+
+                    <div class="text-4xl">
+                        ⭐
+                    </div>
+
+                    <h3 class="mt-5 font-bold">
+                        Confianza
+                    </h3>
+
+                    <p class="mt-3 text-sm leading-6 text-slate-600">
+                        Trabajamos para construir relaciones duraderas.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================================= -->
+    <!-- RESERVA                                            -->
+    <!-- ================================================= -->
+
+    <section id="cita" class="bg-emerald-600 py-20">
+
+
+        <div class="mx-auto max-w-5xl px-6 text-center text-white">
+
+
+            <span class="font-bold uppercase tracking-widest">
+                Reserva tu cita
+            </span>
+
+
+            <h2 class="mt-4 text-4xl font-extrabold md:text-5xl">
+
+                Dale a tu mascota el cuidado que merece
+
+            </h2>
+
+
+            <p class="mx-auto mt-5 max-w-2xl text-lg text-emerald-50">
+
+                Agenda una cita con nuestro equipo veterinario
+                y recibe una atención profesional.
+
+            </p>
+
+
+            <div class="mt-8">
+
+                <a href="tel:+51999999999"
+                    class="inline-block rounded-full bg-white px-8 py-4 font-bold text-emerald-700 shadow-xl transition hover:bg-emerald-50">
+
+                    📞 Reservar por teléfono
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================================= -->
+    <!-- CONTACTO                                           -->
+    <!-- ================================================= -->
+
+    <section id="contacto" class="bg-slate-900 py-20 text-white">
+
+
+        <div class="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-3">
+
+
+            <div>
+
+                <div class="flex items-center gap-3">
+
+                    <div
+                        class="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-500 text-2xl">
+
+                        🐾
+
+                    </div>
+
+                    <h2 class="text-xl font-bold">
+                        VetCare
+                    </h2>
+
+                </div>
+
+
+                <p class="mt-5 leading-7 text-slate-400">
+
+                    Cuidamos la salud y bienestar de tus mascotas
+                    con profesionalismo y cariño.
+
+                </p>
+
+            </div>
+
+
+
+            <div>
+
+                <h3 class="text-lg font-bold">
+                    Contacto
+                </h3>
+
+                <div class="mt-5 space-y-4 text-slate-400">
+
+                    <p>
+                        📍 Huancavelica, Perú
+                    </p>
+
+                    <p>
+                        📞 +51 999 999 999
+                    </p>
+
+                    <p>
+                        ✉️ contacto@vetcare.com
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div>
+
+                <h3 class="text-lg font-bold">
+                    Horarios
+                </h3>
+
+                <div class="mt-5 space-y-4 text-slate-400">
+
+                    <p>
+                        Lunes - Viernes: 8:00 AM - 8:00 PM
+                    </p>
+
+                    <p>
+                        Sábados: 9:00 AM - 6:00 PM
+                    </p>
+
+                    <p>
+                        Emergencias: 24 horas
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================================= -->
+    <!-- FOOTER                                             -->
+    <!-- ================================================= -->
+
+    <footer class="bg-slate-950 py-6 text-center text-sm text-slate-500">
+
+        <p>
+            © 2026 VetCare.
+            Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
